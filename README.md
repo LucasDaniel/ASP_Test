@@ -48,7 +48,7 @@ you can download it from the link below
 
 [Visual Studio Code](https://code.visualstudio.com/download)
 
-Make a clone of the system in your preferred folder and open it in terminal
+Make a clone of the system in C:/xampp/htdocs folder and open it in terminal
 
 ```bash
 git clone https://github.com/LucasDaniel/ASP_Test.git
