@@ -30,10 +30,10 @@ class InitCommand extends Command {
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
         $output->writeln('');
-        $output->writeln('Init Databases and tables');
+        $output->writeln('Show Users');
         $output->writeln('');
 
-        $output->writeln(InitController::createTables());
+        $output->writeln(InitController::showUsers());
 
         $output->writeln('');   
 

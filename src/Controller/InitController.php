@@ -20,7 +20,7 @@ class InitController extends AbstractController
         
     }
 
-    public static function createTables()
+    public static function showUsers()
     {
         $sql = "SELECT * FROM `login`";
         $result = self::getConn()->fetchAllAssociative($sql);
