@@ -67,7 +67,7 @@ composer install
 
 Install dependencies if needed
 
-## Executation
+## Execution
 
 At the end of Visual Studio code in the project root folder, use the commands below to interact with the system
 
