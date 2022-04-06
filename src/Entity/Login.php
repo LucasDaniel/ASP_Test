@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Entity;
+namespace ASPTest\Entity;
 
 class Login
 {

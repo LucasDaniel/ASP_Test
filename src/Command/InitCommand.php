@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Command;
+namespace ASPTest\Command;
 
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Command\Command;
-use App\Controller\InitController;
+use ASPTest\Controller\InitController;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
 class InitCommand extends Command {
