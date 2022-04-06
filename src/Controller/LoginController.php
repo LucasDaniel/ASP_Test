@@ -64,7 +64,9 @@ class LoginController extends AbstractController
     }
 
     /*
-    Deprecated
+    At first I thought about doing it with regex, 
+    but it took a long time and as the task was urgent, 
+    I did it as quickly as possible.
     */
     public static function validatePassword($password,$retypePassword) {
         if ($password != $retypePassword) return false;
