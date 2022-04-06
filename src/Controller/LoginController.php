@@ -35,6 +35,7 @@ class LoginController extends AbstractController
 
     public static function createPwd($id, $password, $retypePassword, $conn)
     {
+        if (!is_int($id)) return "Id is not integer";
         if (!self::userExists($id,$conn)) return "User dont exist";
         if (!self::validatePasswordandRetypePassword($password,$retypePassword)) return "Password dont check";
         if (!self::validatePasswordSixCharacters($password)) return "Less 6 characters";
