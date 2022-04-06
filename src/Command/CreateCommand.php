@@ -1,14 +1,14 @@
 <?php
 
-namespace App\Command;
+namespace ASPTest\Command;
 
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Command\Command;
-use App\Entity\Login;
-use App\Controller\LoginController;
-use App\Controller\InitController;
+use ASPTest\Entity\Login;
+use ASPTest\Controller\LoginController;
+use ASPTest\Controller\InitController;
 
 class CreateCommand extends Command {
 

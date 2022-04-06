@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace ASPTest;
 
 use Symfony\Bundle\FrameworkBundle\Kernel\MicroKernelTrait;
 use Symfony\Component\HttpKernel\Kernel as BaseKernel;

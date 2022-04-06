@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Controller;
+namespace ASPTest\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use \Doctrine\DBAL\DriverManager;
